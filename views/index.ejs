@@ -1,0 +1,27 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="blogs content">
+    <h2> General Information About Weekly Plans </h2>
+    
+    <% if (plans.length > 0) { %>
+      <% plans.forEach(blog => { %>
+        <a class="single" href="/blogs/<%= blog._id %>">
+          <h3 class="title"><%= blog.title %></h3>
+          <p class="snippet"><%= blog.snippet %><br>
+          <h5 class="title">Prepared by:<%=blog.user %> </h5>
+          </p>
+        </a>
+      <% }) %>
+    <% } else { %>
+      <p>There are no <b>weekly</b> or <b>monthely</b> plans to display...</p>
+    <% } %>
+    
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>

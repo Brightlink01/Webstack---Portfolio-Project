@@ -1,0 +1,24 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="create-blog content">
+    <form action="/blogs" method="POST">
+      <label for="title" > The Working Team:</label>
+      <input type="text" placeholder="Deparment name" id="title" name="title" required>
+      <label for="snippet">Application Code:</label>
+      <input type="text" placeholder="fill requesting code" id="snippet" name="snippet" required>
+      <label for="body">Working section:</label>
+      <input type="text" placeholder="fill working area" id="body" name="body" required></input>
+      <label for="discription">Discription About The Tasks:</label>
+      <textarea id="discription" name="discription" required></textarea>
+      <label for="user"> Person encharge of:</label>
+      <input type="text" placeholder="Person encharged" id="user" name="user" required></input> <button>Submit</button>
+    </form>
+  </div>
+
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>
