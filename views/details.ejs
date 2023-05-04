@@ -7,12 +7,17 @@
   <div class="details content">
     <h3><%= blog.title %></h3>
     <div class="content">
-      <ul>
+      <hr>
+      <ul class="detaili">
         <li><b>Maintnance unit:</b> <%= blog.body %></li>
-        <li><b>Working area:</b></li>
+        <hr>
+        <li><b>Working area:</b> <%= blog.snippet %></li>
+        <hr>
         <li><b>Working content:</b></li>
+        <hr>
         <li><b>Estimated Time it takes:</b></li>
       </ul>
+      <hr>
       <p><%= blog.discription %></p>
     </div>
     <a class="delete" data-doc="<%= blog._id %>">

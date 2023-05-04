@@ -104,6 +104,10 @@
       display: block;
       margin-top: 24px;
     }
+    ul.detaili{
+      list-style-type: none;
+      margin-left: 10px;
+    }
     textarea{
       height: 120px;
     }
