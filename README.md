@@ -19,7 +19,7 @@ This is an app that is going to manage the backend logic of a different mentaina
 
 
 
-#### API endpoints
+#### Endpoints
 
 - <root_domain>/create - to create up a new work
 - <root_domain>/ - Home page
