@@ -1,22 +1,22 @@
 {
-  "name": "crash-course",
+  "name": "Web stack Portfolio",
   "version": "1.0.0",
-  "description": "a node crash course",
-  "main": "server.js",
+  "description": "a webstack port",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/iamshaunjp/node-crash-course.git"
+    "url": "git+https://github.com/Brightlink01/Webstack---Portfolio-Project.git"
   },
-  "author": "net ninja",
+  "author": "Tsedal Lombebo",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/iamshaunjp/node-crash-course/issues"
+    "url": "https://github.com/Brightlink01/Webstack---Portfolio-Project"
   },
-  "homepage": "https://github.com/iamshaunjp/node-crash-course#readme",
+  "homepage": "https://github.com/Brightlink01/Webstack---Portfolio-Projecte#readme",
   "dependencies": {
     "ejs": "^3.1.2",
     "express": "^4.17.1",
